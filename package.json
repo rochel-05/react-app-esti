@@ -1,0 +1,80 @@
+{
+  "name": "tuto1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@material-ui/icons": "^4.9.1",
+    "@react-pdf/renderer": "^2.0.0-beta.6",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.3.4",
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
+    "jspdf": "^1.5.3",
+    "jspdf-autotable": "^3.5.3",
+    "lodash": "^4.17.15",
+    "mdbreact": "^4.27.0",
+    "mysql": "^2.18.1",
+    "node-sass": "^4.14.1",
+    "pdf": "^0.1.0",
+    "pdfreader": "^1.0.7",
+    "postgres": "^1.0.2",
+    "progress": "^2.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-bootstrap-sidebar": "0.0.1",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-burger-menu": "^2.6.15",
+    "react-dom": "^16.13.1",
+    "react-excel-renderer": "^1.1.0",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-icons": "^3.10.0",
+    "react-intl": "^4.6.9",
+    "react-moment": "^0.9.7",
+    "react-native-vector-icons": "^6.6.0",
+    "react-pdf": "^4.1.0",
+    "react-pdf-reader": "^0.1.8",
+    "react-pro-sidebar": "^0.4.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-social-login-buttons": "^3.1.0",
+    "react-switch": "^5.0.1",
+    "react-table": "^7.2.1",
+    "react-toastify": "^6.0.5",
+    "react-translate-component": "^0.15.1",
+    "reactstrap": "^8.4.1",
+    "require": "^2.4.20",
+    "styled-components": "^5.1.1",
+    "wso2-ei-cli": "^1.0.7",
+    "xml2js": "^0.4.23"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
