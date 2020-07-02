@@ -49,16 +49,33 @@ class Contrats extends Component{
                         </tr>
                     </thead>
                     <tbody>
-                        {this.state.contrats.map(contrat=>
-                        <tr key={contrat.idcontrat}>
-                            <th scope="row">{contrat.idcontrat}</th>
-                            <td>{contrat.cin}</td>
-                            <td>{contrat.datecontrat}</td>
-                            <td>{contrat.responsable}</td>
-                            <td>{contrat.observation}</td>
-                            <td><Link to={`/editContrats/` + contrat.idcontrat}><FaPencilAlt/></Link></td>
-                            <td><Link to={`/deleteContrats/` + contrat.idcontrat}><FaTrash/></Link></td>
-                        </tr>)}
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>201010007</td>
+                            <td>2020-10-04</td>
+                            <td>DG</td>
+                            <td>Accepté</td>
+                            <td><Link to={`/editContrats/` + 1}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteContrats/` + 1}><FaTrash/></Link></td>
+                        </tr>
+						<tr>
+                            <th scope="row">2</th>
+                            <td>201010008</td>
+                            <td>2020-10-05</td>
+                            <td>DG</td>
+                            <td>Accepté</td>
+                            <td><Link to={`/editContrats/` + 2}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteContrats/` + 2}><FaTrash/></Link></td>
+                        </tr>
+				        <tr>
+                            <th scope="row">3</th>
+                            <td>201010009</td>
+                            <td>2020-10-06</td>
+                            <td>DG</td>
+                            <td>Refusé</td>
+                            <td><Link to={`/editContrats/` + 3}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteContrats/` + 3}><FaTrash/></Link></td>
+                        </tr>
                     </tbody>
                 </table>
                 <div className="row">

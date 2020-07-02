@@ -142,17 +142,36 @@ class Modules extends Component{
                         </tr>
                     </thead>
                     <tbody>
-                        {this.state.modules.map(module=>
-                        <tr key={module.idModule}>
-                            <th scope="row">{module.idModule}</th>
-                            <td>{module.codeModule}</td>
-                            <td>{module.codeUe}</td>
-                            <td>{module.libelleModule}</td>
-                            <td>{module.credit}</td>
-                            <td>{module.volumeHoraire}</td>
-                            <td><Link to={`/editModules/` + module.idModule}><FaPencilAlt/></Link></td>
-                            <td><Link to={`/deleteModules/` + module.idModule}><FaTrash/></Link></td>
-                        </tr>)}
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>INFO-140</td>
+                            <td>INFO</td>
+                            <td>LANGAGE-C</td>
+                            <td>30</td>
+                            <td>30</td>
+                            <td><Link to={`/editModules/` + 1}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteModules/` + 1}><FaTrash/></Link></td>
+                        </tr>
+						<tr>
+                            <th scope="row">2</th>
+                            <td>INFO-160</td>
+                            <td>INFO</td>
+                            <td>Algorithme</td>
+                            <td>25</td>
+                            <td>30</td>
+                            <td><Link to={`/editModules/` + 2}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteModules/` + 2}><FaTrash/></Link></td>
+                        </tr>
+						<tr>
+                            <th scope="row">3</th>
+                            <td>LANG-120</td>
+                            <td>LANGAGE</td>
+                            <td>ANGLAIS</td>
+                            <td>20</td>
+                            <td>20</td>
+                            <td><Link to={`/editModules/` + 3}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteModules/` + 3}><FaTrash/></Link></td>
+                        </tr>
                     </tbody>
                 </table>
                 <div className="row">

@@ -56,19 +56,42 @@ class Enseignants extends Component{
                         </tr>
                     </thead>
                     <tbody>
-                        {this.state.enseignants.map(enseignant=>
-                        <tr key={enseignant.idens}>
-                            <th scope="row">{enseignant.idens}</th>
-                            <td>{enseignant.cinens}</td>
-                            <td>{enseignant.nomens}</td>
-                            <td>{enseignant.prenomens}</td>
-                            <td>{enseignant.diplomeens}</td>
-                            <td>{enseignant.contact}</td>
-                            <td>{enseignant.mail}</td>
-                            <td>{enseignant.status}</td>
-                            <td><Link to={"/editEnseignants/" + enseignant.idens}><FaPencilAlt/></Link></td>
-                            <td><Link to={"/deleteEnseignants/" + enseignant.idens}><FaTrash/></Link></td>
-                        </tr>)}
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>201010007</td>
+                            <td>SONIARIMAMY</td>
+                            <td>Nantenaina Serge Rochel</td>
+                            <td>Master Recherche</td>
+                            <td>0349251646</td>
+                            <td>rochel.nantenaina@esti.mg</td>
+                            <td>Celibataire</td>
+                            <td><Link to={"/editEnseignants/" + 1}><FaPencilAlt/></Link></td>
+                            <td><Link to={"/deleteEnseignants/" + 1}><FaTrash/></Link></td>
+                        </tr>
+						<tr>
+                            <th scope="row">2</th>
+                            <td>201010008</td>
+                            <td>RAFALIMANANA</td>
+                            <td>Felixie</td>
+                            <td>Master Recherche</td>
+                            <td>034687856</td>
+                            <td>felixie.rafalimanana@esti.mg</td>
+                            <td>Celibataire engagé</td>
+                            <td><Link to={"/editEnseignants/" + 2}><FaPencilAlt/></Link></td>
+                            <td><Link to={"/deleteEnseignants/" + 2}><FaTrash/></Link></td>
+                        </tr>
+					    <tr>
+                            <th scope="row">3</th>
+                            <td>201010009</td>
+                            <td>RATOVONDRAHONA</td>
+                            <td>Alin Josué</td>
+                            <td>Master Recherche</td>
+                            <td>0344741712</td>
+                            <td>josue.ratovondrahona@esti.mg</td>
+                            <td>Celibataire</td>
+                            <td><Link to={"/editEnseignants/" + 3}><FaPencilAlt/></Link></td>
+                            <td><Link to={"/deleteEnseignants/" + 3}><FaTrash/></Link></td>
+                        </tr>
                     </tbody>
                 </table>
                 <div className="row">

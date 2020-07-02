@@ -51,17 +51,36 @@ class Avenants extends Component{
                     </tr>
                 </thead>
                 <tbody>
-                    {this.state.avenants.map(avenant=>
-                    <tr key={avenant.idAvenant}>
-                        <th scope="row">{avenant.idAvenant}</th>
-                        <td>{avenant.cin}</td>
-                        <td>{avenant.codeModule}</td>
-                        <td>{avenant.dateAvenant}</td>
-                        <td>{avenant.anneeUniv}</td>
-                        <td>{avenant.responsable}</td>
-                        <td><Link to={`/editAvenants/` + avenant.idAvenant}><FaPencilAlt/></Link></td>
-                        <td><Link to={`/deleteAvenants/` + avenant.idAvenant}><FaTrash/></Link></td>
-                    </tr>)}
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>201010007</td>
+                        <td>INFO-140</td>
+                        <td>2020-10-04</td>
+                        <td>2019-2020</td>
+                        <td>DG</td>
+                        <td><Link to={`/editAvenants/` + 1}><FaPencilAlt/></Link></td>
+                        <td><Link to={`/deleteAvenants/` + 1}><FaTrash/></Link></td>
+                    </tr>
+					<tr>
+                        <th scope="row">2</th>
+                        <td>201010008</td>
+                        <td>INFO-160</td>
+                        <td>2020-10-05</td>
+                        <td>2019-2020</td>
+                        <td>DG</td>
+                        <td><Link to={`/editAvenants/` + 2}><FaPencilAlt/></Link></td>
+                        <td><Link to={`/deleteAvenants/` + 2}><FaTrash/></Link></td>
+                    </tr>
+					<tr>
+                        <th scope="row">3</th>
+                        <td>201010009</td>
+                        <td>INFO-120</td>
+                        <td>2020-10-06</td>
+                        <td>2019-2020</td>
+                        <td>DG</td>
+                        <td><Link to={`/editAvenants/` + 3}><FaPencilAlt/></Link></td>
+                        <td><Link to={`/deleteAvenants/` + 3}><FaTrash/></Link></td>
+                    </tr>
                 </tbody>
             </table>
             <div className="row">

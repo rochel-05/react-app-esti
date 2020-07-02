@@ -50,18 +50,39 @@ class Syllabuss extends Component{
                         </tr>
                     </thead>
                     <tbody>
-                        {this.state.syllabuss.map(syllabus=>
-                        <tr key={syllabus.idsyllabus}>
-                            <th scope="row">{syllabus.idsyllabus}</th>
-                            <td>{syllabus.cin}</td>
-                            <td>{syllabus.codemodule}</td>
-                            <td>{syllabus.objectifvise}</td>
-                            <td>{syllabus.prerequis}</td>
-                            <td>{syllabus.contenu}</td>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>201010007</td>
+                            <td>INFO-140</td>
+                            <td>Maitriser le langage C</td>
+                            <td>Algorithme</td>
+                            <td>Boucle, condition, pointeur</td>
                             <td><Link to='/syllabusPdfReader'><FaEye/></Link></td>
-                            <td><Link to={`/editSyllabuss/` + syllabus.idsyllabus}><FaPencilAlt/></Link></td>
-                            <td><Link to={`/deleteSyllabuss/` + syllabus.idsyllabus}><FaTrash/></Link></td>
-                        </tr>)}
+                            <td><Link to={`/editSyllabuss/` + 1}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteSyllabuss/` + 1}><FaTrash/></Link></td>
+                        </tr>
+						<tr>
+                            <th scope="row">2</th>
+                            <td>201010008</td>
+                            <td>INFO-160</td>
+                            <td>Maitriser l'algorithme</td>
+                            <td>Néant</td>
+                            <td>Boucle, condition, pointeur</td>
+                            <td><Link to='/syllabusPdfReader'><FaEye/></Link></td>
+                            <td><Link to={`/editSyllabuss/` + 2}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteSyllabuss/` + 2}><FaTrash/></Link></td>
+                        </tr>
+					    <tr>
+                            <th scope="row">3</th>
+                            <td>201010009</td>
+                            <td>LANG-120</td>
+                            <td>Maitriser l'anglais</td>
+                            <td>Néant</td>
+                            <td>Grammar, Expression, Writing</td>
+                            <td><Link to='/syllabusPdfReader'><FaEye/></Link></td>
+                            <td><Link to={`/editSyllabuss/` + 3}><FaPencilAlt/></Link></td>
+                            <td><Link to={`/deleteSyllabuss/` + 3}><FaTrash/></Link></td>
+                        </tr>
                     </tbody>
                 </table>
                 <div className="row">
