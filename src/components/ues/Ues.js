@@ -52,22 +52,22 @@ class Ues extends Component{
                                 <th scope="row">INFO-140</th>
                                 <td>LANGAGE C</td>
                                 <td>S1</td>
-                                <td><Link to={"/editUes/" + INFO-140}><FaPencilAlt/></Link></td>
-                                <td><Link to={"/deleteUes/" + INFO-140}><FaTrash/></Link></td>
+                                <td><Link to={"/editUes/INFO-140"}><FaPencilAlt/></Link></td>
+                                <td><Link to={"/deleteUes/INFO-140"}><FaTrash/></Link></td>
                             </tr>
-						    <tr>
+			    <tr>
                                 <th scope="row">INFO-160</th>
                                 <td>Algorithme</td>
                                 <td>S1</td>
-                                <td><Link to={"/editUes/" + INFO-160}><FaPencilAlt/></Link></td>
-                                <td><Link to={"/deleteUes/" + INFO-160}><FaTrash/></Link></td>
+                                <td><Link to={"/editUes/INFO-160"}><FaPencilAlt/></Link></td>
+                                <td><Link to={"/deleteUes/INFO-160"}><FaTrash/></Link></td>
                             </tr>
-						   <tr>
+			    <tr>
                                 <th scope="row">INFO-120</th>
                                 <td>Anglais</td>
                                 <td>S2</td>
-                                <td><Link to={"/editUes/" + INFO-120}><FaPencilAlt/></Link></td>
-                                <td><Link to={"/deleteUes/" + INFO-120}><FaTrash/></Link></td>
+                                <td><Link to={"/editUes/INFO-120"}><FaPencilAlt/></Link></td>
+                                <td><Link to={"/deleteUes/INFO-120"}><FaTrash/></Link></td>
                             </tr>
                         </tbody>
                     </table>
